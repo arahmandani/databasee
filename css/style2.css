@@ -1,0 +1,122 @@
+/* 
+    Document   : style2
+    Created on : Dec 11, 2013, 2:23:49 PM
+    Author     : User
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+
+.hasil{
+    width:300px;
+    margin:0 auto;
+    padding:5px;
+    font-weight:bold;
+    color:#f00;}
+
+body{
+    background-image: url('image/logo_uns.png');
+    padding:0;
+    margin:0;
+    font-family:arial;
+    font-size:12px;
+}
+form{
+    
+   background-color: #f00;
+   border: 5px solid #c3d9ff;
+   
+   margin: 70px 80px 15px 100px;
+   width: 600px;
+   padding: auto;
+}
+#cmenk1{
+    alignment-adjust: central;
+    border:5px solid #0000ff;
+    background:#c3d9ff;
+    cursor:pointer;
+    padding:5px 24px;
+   
+}
+#cmenk1 Login:hover{
+    background: #ffffff;
+}
+
+#table{
+    font-size:12px;
+    width:400px;}
+
+    
+#h2{
+    font-size:18px;
+    font-weight:bold;
+    padding:10px 0;
+    text-align:center;}
+#cmenk{
+    font-size:11px;
+    padding:5px 0 0;
+    color:#0000ff;
+    text-align:center;}
+#red{
+    font-weight:bold;
+    color:#f00;}
+#h1 {
+ text-align: center;
+}
+
+#menu {
+ width: 400px;
+ margin: 32px 0px 0px 520px ;
+}
+#menu ul {
+ font-family: Arial, Verdana;
+ font-size: 14px;
+ margin: 0;
+ padding: 0;
+ list-style: none;
+}
+
+#menu ul li {
+ display: block;
+ position: relative;
+ float: left;
+}
+
+
+#menu li ul {
+ display: none;
+}
+#menu ul li a {
+ display: block;
+ text-decoration: none;
+ color: #ffffff;
+ padding: 10px 15px 10px 15px;
+ background: #000;
+ /*margin-left: 1px;*/
+}
+/*style setelah cursor diarahkan*/
+#menu ul li a:hover {
+ background: #666;
+
+}
+
+#menu li a:after { margin-left: 7px; content: '\25BA'; font-size:7px; font-family:Arial, Helvetica, sans-serif;}
+#menu li a:after { margin-left: 7px; content: '\25BC';font-size:7px;font-family:Arial, Helvetica, sans-serif;}
+#menu li a:only-child:after { margin-left: 0; content: ''; }
+
+#menu li ul {
+ display: block;
+ position: absolute;
+ display: none;
+}#menu li li {
+ float: none;
+ font-size: 11px;
+ width: 92px;
+}
+#menu li a {
+ background: #000;
+}
+#menu li li a:hover {
+ background: #f00;
+}
